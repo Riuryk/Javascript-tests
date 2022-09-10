@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ejemplo addEventListener </title>
+   
+    
+</head>
+<body>
+    <button id = "miBoton"> iniciar</button>
+    <script>
+        let miBoton = document.getElementById("miBoton");
+        //caso onclick
+        //miBoton.onclick = saludar;
+        //miBoton.onclick = despedir;
+
+        miBoton.addEventListener("click",saludar);
+        miBoton.addEventListener("click",despedir);
+        function saludar() {
+            alert("hola")
+        }
+        function despedir() {
+            alert("chau")
+        }
+    </script>
+</body>
+</html>

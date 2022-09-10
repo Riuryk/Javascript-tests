@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>html y js</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+    <h1>Hola mundo</h1>
+    <button onclick='saludar("rodri")' >Saludar</button>
+    <button onclick='saludar("pepe")' >Saludar</button>
+    <button onclick='saludar("juan")' >Saludar</button>
+    <div id ="divisor">Division</div>
+    <script>
+        var nombre
+        var divSaludar = document.getElementById("divisor");
+        function saludar(nombre)
+        {
+            divSaludar.innerText = ("hola "+nombre);
+            console.log("hola "+nombre);
+            alert("hola "+ nombre);
+        }
+        //saludar("Rodrigo");
+        //saludar("pepe");
+        //saludar("juan");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
