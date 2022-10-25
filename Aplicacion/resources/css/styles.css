@@ -1,0 +1,30 @@
+
+        td,
+        th {
+            text-align: center;
+            padding: 10px;
+            border: solid red 1px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        .formulario {
+            
+
+            padding-bottom: 20px;
+        }
+
+        #boton {
+            font-size: large;
+        }
+
+        .tabla table {
+            margin: 10px auto;
+        }
+    
